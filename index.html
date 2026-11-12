@@ -403,6 +403,10 @@
     chatSend.addEventListener('click',sendMsg);
     chatInput.addEventListener('keydown',e=>{if(e.key==='Enter')sendMsg();});
     const form=document.getElementById('contact-form'),formMsg=document.getElementById('form-msg');
+    // ── LEAD CAPTURE WEBHOOK ──────────────────────────────────────────────────
+    // Deploy webhook_script.gs in Google Apps Script, then paste the Web App URL below.
+    // Full setup instructions are inside the 3xDM_Lead_Tracker.xlsx file.
+    // ─────────────────────────────────────────────────────────────────────────
     const WEBHOOK='YOUR_WEBHOOK_URL_HERE';
     form.addEventListener('submit',async(e)=>{e.preventDefault();const btn=form.querySelector('button[type="submit"]');btn.textContent='Sending…';btn.disabled=true;if(typeof gtag==='function')gtag('event','generate_lead',{event_category:'contact_form'});const payload=Object.fromEntries(new FormData(form).entries());if(WEBHOOK!=='YOUR_WEBHOOK_URL_HERE'){try{await fetch(WEBHOOK,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});}catch(_){}}await new Promise(r=>setTimeout(r,700));form.reset();btn.textContent='Book My Discovery Call';btn.disabled=false;formMsg.classList.remove('hidden');setTimeout(()=>formMsg.classList.add('hidden'),6000);});
   })();
