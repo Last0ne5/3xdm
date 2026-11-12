@@ -1,0 +1,30 @@
+# 3x Digi Money — https://www.3xdigimoney.ca/
+# Updated: 2026-11-12
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /*.json$
+
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+Sitemap: https://www.3xdigimoney.ca/sitemap.xml

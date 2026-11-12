@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3x Digi Money — Automated Lead Generation & AI Booking Agents for Real Estate</title>
+  <meta name="description" content="We build automated lead-generation engines for real estate brokerages. Local search dominance, 24/7 AI voice + chat agents, and high-converting landing pages." />
+  <meta name="theme-color" content="#020C06" />
+  <link rel="canonical" href="https://www.3xdigimoney.ca/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.3xdigimoney.ca/" />
+  <meta property="og:title" content="3x Digi Money — Automated Lead Generation for Real Estate" />
+  <meta property="og:description" content="High-converting lead infrastructure, local search dominance, and 24/7 AI booking agents for real estate brokerages." />
+  <meta property="og:image" content="https://www.3xdigimoney.ca/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="3x Digi Money — Automated Lead Generation for Real Estate" />
+  <meta name="twitter:description" content="High-converting lead infrastructure, local search dominance, and 24/7 AI booking agents for real estate brokerages." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            void:   '#020C06',
+            forest: '#0D1F12',
+            moss:   '#1A3020',
+            pine:   '#223D28',
+            sage:   '#3D6B45',
+            mist:   '#8BA68F',
+            cream:  '#F8F2E3',
+            gold:   '#CBBF97',
+            bark:   '#0D2010',
+          },
+          fontFamily: {
+            sans:    ['Manrope', 'system-ui', 'sans-serif'],
+            display: ['Manrope', 'system-ui', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MarketingAgency",
+        "@id": "https://www.3xdigimoney.ca/#agency",
+        "name": "3x Digi Money",
+        "url": "https://www.3xdigimoney.ca/",
+        "description": "Specialized digital agency serving real estate brokerages with automated lead generation, local search dominance, and 24/7 AI booking agents.",
+        "areaServed": { "@type": "Country", "name": "Canada" },
+        "serviceType": ["Lead Generation", "Local SEO", "AI Voice Agents", "Chat Automation"],
+        "knowsAbout": ["Real Estate Marketing", "Local SEO", "AI Automation", "Lead Generation"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.3xdigimoney.ca/#website",
+        "url": "https://www.3xdigimoney.ca/",
+        "name": "3x Digi Money",
+        "publisher": { "@id": "https://www.3xdigimoney.ca/#agency" }
+      }
+    ]
+  }
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body { background-color: #020C06; color: #F8F2E3; font-family: 'Manrope', system-ui, sans-serif; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+    .text-gradient { background: linear-gradient(135deg, #F8F2E3 0%, #CBBF97 60%, #8BA68F 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .text-gradient-gold { background: linear-gradient(to right, #CBBF97 0%, #F8F2E3 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .divider { height: 1px; background: linear-gradient(to right, transparent, rgba(203,191,151,0.22), transparent); }
+    #nav-pill { transition: box-shadow 0.3s ease; }
+    #nav-pill.scrolled { box-shadow: 0 6px 40px rgba(0,0,0,0.5), 0 1px 8px rgba(0,0,0,0.4); }
+    [data-word] { opacity: 0.15; transition: opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1); }
+    [data-word].lit { opacity: 1; }
+    .fade-up { opacity: 0; transform: translateY(28px); transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1); }
+    .fade-up.visible { opacity: 1; transform: translateY(0); }
+    .service-card { transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease; }
+    .service-card:hover { transform: translateY(-5px); box-shadow: 0 24px 60px rgba(0,0,0,0.5); border-color: rgba(203,191,151,0.45) !important; }
+    .bubble-agent { background: #1A3020; color: #F8F2E3; border-radius: 16px 16px 16px 4px; }
+    .bubble-user { background: #CBBF97; color: #0D2010; border-radius: 16px 16px 4px 16px; }
+    .section { padding: 5rem 0; }
+    @media (max-width: 768px) { .section { padding: 3.5rem 0; } }
+    body::before { content: ''; position: fixed; inset: 0; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E"); pointer-events: none; z-index: 0; }
+    header, main, footer { position: relative; z-index: 1; }
+    #chat-messages::-webkit-scrollbar { width: 4px; }
+    #chat-messages::-webkit-scrollbar-track { background: transparent; }
+    #chat-messages::-webkit-scrollbar-thumb { background: rgba(203,191,151,0.25); border-radius: 2px; }
+    @media (prefers-reduced-motion: reduce) { [data-word] { opacity: 1 !important; transition: none !important; } .fade-up { opacity: 1 !important; transform: none !important; transition: none !important; } .service-card { transition: none !important; } }
+  </style>
+</head>
+<body>
+
+  <header class="fixed top-0 inset-x-0 z-50 flex justify-center pt-4 px-4">
+    <nav id="nav-pill" class="w-full max-w-5xl flex items-center justify-between px-5 py-3 rounded-2xl" style="background:rgba(13,31,18,0.92);border:1px solid rgba(203,191,151,0.35);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);">
+      <a href="#" class="font-black text-cream text-lg tracking-tight select-none"><span class="text-gold">3x</span> Digi Money</a>
+      <div class="hidden md:flex items-center gap-7 text-sm font-medium text-mist">
+        <a href="#problem"  class="hover:text-cream transition-colors duration-200">Problem</a>
+        <a href="#services" class="hover:text-cream transition-colors duration-200">Services</a>
+        <a href="#demo"     class="hover:text-cream transition-colors duration-200">AI Demo</a>
+        <a href="#contact"  class="hover:text-cream transition-colors duration-200">Contact</a>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="#contact" class="hidden md:inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-semibold text-bark bg-gold hover:bg-cream transition-colors duration-200">
+          Book a Call
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5-5 5M6 12h12"/></svg>
+        </a>
+        <button id="menu-btn" class="md:hidden p-1.5 text-mist hover:text-cream transition-colors" aria-label="Toggle navigation" aria-expanded="false">
+          <svg id="icon-open"  class="w-5 h-5"        fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          <svg id="icon-close" class="w-5 h-5 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+    </nav>
+    <div id="mobile-menu" class="hidden absolute left-4 right-4 top-[4.75rem] rounded-2xl overflow-hidden" style="background:rgba(13,31,18,0.97);border:1px solid rgba(203,191,151,0.25);backdrop-filter:blur(20px);">
+      <div class="flex flex-col p-4 gap-1 text-sm font-medium">
+        <a href="#problem"  class="nav-link px-4 py-3 rounded-xl text-cream hover:bg-moss transition-colors">Problem</a>
+        <a href="#services" class="nav-link px-4 py-3 rounded-xl text-cream hover:bg-moss transition-colors">Services</a>
+        <a href="#demo"     class="nav-link px-4 py-3 rounded-xl text-cream hover:bg-moss transition-colors">AI Demo</a>
+        <a href="#contact"  class="nav-link px-4 py-3 rounded-xl text-cream hover:bg-moss transition-colors">Contact</a>
+        <div class="mt-2 pt-3" style="border-top:1px solid rgba(203,191,151,0.20);">
+          <a href="#contact" class="nav-link block px-4 py-3 rounded-xl text-center font-semibold text-bark bg-gold hover:bg-cream transition-colors">Book a Discovery Call</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="relative min-h-screen flex items-center justify-center pt-28 pb-20 overflow-hidden">
+      <div class="absolute inset-0 pointer-events-none" aria-hidden="true">
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[900px] h-[500px] rounded-full opacity-15" style="background:radial-gradient(ellipse,#3D6B45 0%,transparent 70%);filter:blur(100px);"></div>
+      </div>
+      <div class="max-w-5xl mx-auto px-6 text-center relative">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase mb-8" style="background:rgba(203,191,151,0.10);border:1px solid rgba(203,191,151,0.30);color:#CBBF97;">
+          <span class="w-1.5 h-1.5 rounded-full bg-gold animate-pulse"></span>
+          Real Estate Digital Agency
+        </div>
+        <h1 class="font-black leading-[1.07] tracking-tight mb-6" style="font-size:clamp(2.5rem,6vw,4.5rem);">
+          <span class="text-gradient">We Build Automated<br/>Lead-Generation Engines</span><br/>
+          <span class="text-cream">for Real Estate Brokerages.</span>
+        </h1>
+        <p class="text-mist leading-relaxed max-w-2xl mx-auto mb-10" style="font-size:clamp(1.1rem,2.5vw,1.35rem);">
+          One missed inquiry costs you <strong class="text-gold font-semibold">$8,000+</strong> in commission. We make sure the next lead lands on your calendar — automatically, 24/7.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="#contact" class="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-2xl font-bold text-bark bg-gold hover:bg-cream transition-colors duration-200 text-base" style="box-shadow:0 8px 32px rgba(203,191,151,0.22);">
+            Book a Discovery Call
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5-5 5M6 12h12"/></svg>
+          </a>
+          <a href="#demo" class="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-2xl font-semibold text-cream border hover:bg-forest transition-colors duration-200 text-base" style="border-color:rgba(203,191,151,0.35);">
+            <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
+            See the Live AI Demo
+          </a>
+        </div>
+        <p class="mt-10 text-xs uppercase tracking-widest" style="color:rgba(139,166,143,0.6);">Built for brokerages generating leads but losing them after hours</p>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <div class="divider"></div>
+    <div class="py-14 max-w-5xl mx-auto px-6">
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-10 text-center">
+        <div class="fade-up">
+          <div class="font-black text-gradient-gold mb-2" style="font-size:3.25rem;">60%</div>
+          <div class="text-mist text-sm leading-snug max-w-[180px] mx-auto">of internet leads lost when agents miss the 5-minute response window</div>
+        </div>
+        <div class="fade-up" style="transition-delay:0.1s;">
+          <div class="font-black text-gradient-gold mb-2" style="font-size:3.25rem;">$8K+</div>
+          <div class="text-mist text-sm leading-snug max-w-[180px] mx-auto">average commission on a single closed residential property</div>
+        </div>
+        <div class="fade-up" style="transition-delay:0.2s;">
+          <div class="font-black text-gradient-gold mb-2" style="font-size:3.25rem;">24/7</div>
+          <div class="text-mist text-sm leading-snug max-w-[180px] mx-auto">AI agents active while your team sleeps, plays, or is on a call</div>
+        </div>
+      </div>
+    </div>
+    <div class="divider"></div>
+
+    <!-- TAGLINE REVEAL -->
+    <section class="section max-w-5xl mx-auto px-6" id="tagline" aria-label="Core value proposition">
+      <p class="font-black leading-tight tracking-tight text-cream max-w-4xl" style="font-size:clamp(2rem,4.5vw,3.5rem);" id="tagline-text">
+        <span data-word>Every</span> <span data-word>missed</span> <span data-word>inquiry</span>
+        <span data-word>is</span> <span data-word>a</span> <span data-word>competitor's</span>
+        <span data-word>closed</span> <span data-word>deal.</span><br/>
+        <span data-word>We</span> <span data-word>make</span> <span data-word>sure</span>
+        <span data-word>the</span> <span data-word>next</span> <span data-word>one</span>
+        <span data-word>lands</span> <span data-word>on</span> <span data-word>your</span>
+        <span data-word>calendar.</span>
+      </p>
+    </section>
+
+    <!-- PROBLEM -->
+    <section id="problem" class="section max-w-5xl mx-auto px-6">
+      <div class="divider mb-16"></div>
+      <div class="fade-up mb-12">
+        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest text-gold mb-5" style="background:rgba(203,191,151,0.10);border:1px solid rgba(203,191,151,0.25);">The Problem</span>
+        <h2 class="font-black leading-tight tracking-tight text-cream mb-5" style="font-size:clamp(2rem,4vw,3rem);">You're generating leads.<br/><span class="text-gradient">You're losing them.</span></h2>
+        <p class="text-mist text-lg max-w-2xl leading-relaxed">Real estate brokerages invest heavily in advertising, referrals, and social content — then hemorrhage up to 60% of those leads because no one responds fast enough.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="fade-up rounded-2xl p-7" style="background:#0D1F12;border:1px solid rgba(203,191,151,0.15);">
+          <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-5" style="background:rgba(203,191,151,0.10);">
+            <svg class="w-5 h-5 text-gold" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="font-bold text-cream text-lg mb-2">The 5-Minute Window</h3>
+          <p class="text-mist text-sm leading-relaxed">Leads contacted within 5 minutes are 9× more likely to convert. After 10 minutes, they've already called your competitor.</p>
+        </div>
+        <div class="fade-up rounded-2xl p-7" style="background:#0D1F12;border:1px solid rgba(203,191,151,0.15);transition-delay:0.1s;">
+          <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-5" style="background:rgba(203,191,151,0.10);">
+            <svg class="w-5 h-5 text-gold" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+          </div>
+          <h3 class="font-bold text-cream text-lg mb-2">After-Hours Blackout</h3>
+          <p class="text-mist text-sm leading-relaxed">Buyers browse listings at 10 PM, midnight, and 6 AM. When they submit a form and hear nothing back, they move on — immediately and permanently.</p>
+        </div>
+        <div class="fade-up rounded-2xl p-7" style="background:#0D1F12;border:1px solid rgba(203,191,151,0.15);transition-delay:0.2s;">
+          <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-5" style="background:rgba(203,191,151,0.10);">
+            <svg class="w-5 h-5 text-gold" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
+          </div>
+          <h3 class="font-bold text-cream text-lg mb-2">Search Invisibility</h3>
+          <p class="text-mist text-sm leading-relaxed">Your YouTube tours and Instagram reels generate Google Search and Discover clicks — but without optimized local SEO, buyers never find you first.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section max-w-5xl mx-auto px-6">
+      <div class="divider mb-16"></div>
+      <div class="fade-up mb-12">
+        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest text-gold mb-5" style="background:rgba(203,191,151,0.10);border:1px solid rgba(203,191,151,0.25);">Services & Pricing</span>
+        <h2 class="font-black leading-tight tracking-tight text-cream" style="font-size:clamp(2rem,4vw,3rem);">Three systems.<br/><span class="text-gradient">One sealed pipeline.</span></h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="service-card rounded-2xl p-7 flex flex-col" style="background:#0D1F12;border:1px solid rgba(203,191,151,0.20);">
+          <div class="text-xs font-bold uppercase tracking-widest text-mist mb-5">Tier 1</div>
+          <h3 class="font-bold text-cream text-xl mb-2">Lead Infrastructure</h3>
+          <div class="font-black text-gold mb-1" style="font-size:1.9rem;">$1,500 <span class="text-mist font-normal text-base">– $2,500</span></div>
+          <div class="text-mist text-xs mb-7">One-time setup</div>
+          <ul class="flex-1 space-y-3 mb-8">
+            <li class="flex items-start gap-2.5 text-sm text-mist"><svg class="w-4 h-4 text-gold mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>Mobile-first lead-capture landing page</li>
+            <li class="flex items-start gap-2.5 text-sm text-mist"><svg class="w-4 h-4 text-gold mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>Local SEO foundation + JSON-LD schema</li>
+            <li class="flex items-start gap-2.5 text-sm text-mist"><svg class="w-4 h-4 text-gold mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>GA4 + GSC analytics integration</li>
+            <li class="flex items-start gap-2.5 text-sm text-mist"><svg class="w-4 h-4 text-gold mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>CRM-connected multi-step form</li>
+            <li class="flex items-start gap-2.5 text-sm text-mist"><svg class="w-4 h-4 text-gold mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>robots.txt + sitemap.xml</li>
+          </ul>
+          <a href="#contact" class="text-center py-3 rounded-xl font-semibold text-sm text-bark bg-gold hover:bg-cream transition-colors duration-200">Get Started</a>
+        </div>
+        <div class="service-card rounded-2xl p-7 flex flex-col relative overflow-hidden" style="background:linear-gradient(145deg,#1A3020 0%,#0D1F12 100%);border:1px solid rgba(203,191,151,0.45);">
+          <div class="absolute top-5 right-5 px-2.5 py-1 rounded-full text-xs font-black text-bark bg-gold">Popular</div>
+          <div class="text-xs font-bold uppercase tracking-widest text-gold mb-5">Tier 2</div>
+          <h3 class="font-bold text-cream text-xl mb-2">Search & Social Dominance</h3>
+          <div class="font-black text-gold mb-1" style="font-size:1.9rem;">$300 <span class="text-mist font-normal text-base">– $600</span></div>
+          <div class="text-mist text-xs mb-7">Per month retainer</div>
+          <ul class="flex-1 space-y-3 mb-8">
+            <li class="flex items-start gap-2.5 text-sm text-mist"><svg class="w-4 h-4 text-gold mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>Google Business Profile management</li>
+            <li class="flex items-start gap-2.5 text-sm text-mist"><svg class="w-4 h-4 text-gold mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>Cross-channel analytics (IG, TikTok, YT, X)</li>
+            <li class="flex items-start gap-2.5 text-sm text-mist"><svg class="w-4 h-4 text-gold mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>Continuous local SEO + content expansion</li>
+            <li class="flex items-start gap-2.5 text-sm text-mist"><svg class="w-4 h-4 text-gold mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>Monthly GSC performance report</li>
+            <li class="flex items-start gap-2.5 text-sm text-mist"><svg class="w-4 h-4 text-gold mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>NAP citation audit across directories</li>
+          </ul>
+          <a href="#contact" class="text-center py-3 rounded-xl font-semibold text-sm text-bark bg-gold hover:bg-cream transition-colors duration-200">Get Started</a>
+        </div>
+        <div class="service-card rounded-2xl p-7 flex flex-col" style="background:#0D1F12;border:1px solid rgba(203,191,151,0.20);">
+          <div class="text-xs font-bold uppercase tracking-widest text-mist mb-5">Tier 3</div>
+          <h3 class="font-bold text-cream text-xl mb-2">Operational AI</h3>
+          <div class="font-black text-gold mb-1" style="font-size:1.9rem;">$3,000 <span class="text-mist font-normal text-base">– $5,000</span></div>
+          <div class="text-mist text-xs mb-7">Setup + $200/month</div>
+          <ul class="flex-1 space-y-3 mb-8">
+            <li class="flex items-start gap-2.5 text-sm text-mist"><svg class="w-4 h-4 text-gold mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>24/7 AI voice + chat agents</li>
+            <li class="flex items-start gap-2.5 text-sm text-mist"><svg class="w-4 h-4 text-gold mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>Automatic open house booking</li>
+            <li class="flex items-start gap-2.5 text-sm text-mist"><svg class="w-4 h-4 text-gold mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>CRM + calendar API integration</li>
+            <li class="flex items-start gap-2.5 text-sm text-mist"><svg class="w-4 h-4 text-gold mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>Instant SMS + voice response pipeline</li>
+            <li class="flex items-start gap-2.5 text-sm text-mist"><svg class="w-4 h-4 text-gold mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>Lead qualification + human fallback</li>
+          </ul>
+          <a href="#contact" class="text-center py-3 rounded-xl font-semibold text-sm text-bark bg-gold hover:bg-cream transition-colors duration-200">Get Started</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PITCH QUOTE -->
+    <section class="section max-w-5xl mx-auto px-6">
+      <div class="divider mb-16"></div>
+      <div class="rounded-2xl p-9 md:p-14 relative overflow-hidden fade-up" style="background:linear-gradient(145deg,#1A3020 0%,#0D1F12 100%);border:1px solid rgba(203,191,151,0.25);">
+        <div class="absolute -top-24 -right-24 w-72 h-72 rounded-full opacity-20 pointer-events-none" style="background:radial-gradient(circle,#CBBF97 0%,transparent 70%);filter:blur(70px);"></div>
+        <div class="relative">
+          <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest text-gold mb-6" style="background:rgba(203,191,151,0.12);border:1px solid rgba(203,191,151,0.25);">The Pitch</span>
+          <blockquote class="font-semibold text-cream leading-relaxed mb-8 max-w-3xl" style="font-size:clamp(1.1rem,2.5vw,1.4rem);">
+            "Your YouTube and Instagram tours are generating hundreds of Google clicks per month. But you're losing up to <span class="text-gold">60% of those leads</span> if agents don't respond in five minutes. My AI voice agent ensures that when those leads hit your site at 11 PM, they get an instant response and are booked for a showing — securing your <span class="text-gold">$8,000+ commission</span>."
+          </blockquote>
+          <a href="#contact" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm text-bark bg-gold hover:bg-cream transition-colors duration-200">
+            See how it works
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5-5 5M6 12h12"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI DEMO -->
+    <section id="demo" class="section max-w-5xl mx-auto px-6">
+      <div class="divider mb-16"></div>
+      <div class="fade-up mb-12 text-center">
+        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest text-gold mb-5" style="background:rgba(203,191,151,0.10);border:1px solid rgba(203,191,151,0.25);">Live Demo</span>
+        <h2 class="font-black leading-tight tracking-tight text-cream mb-4" style="font-size:clamp(2rem,4vw,3rem);">Talk to the AI.<br/><span class="text-gradient">Right now.</span></h2>
+        <p class="text-mist text-lg max-w-xl mx-auto leading-relaxed">This is exactly what your leads experience at 11 PM — instant response, qualification, and an open house booked on the spot.</p>
+      </div>
+      <div class="rounded-2xl overflow-hidden max-w-lg mx-auto fade-up" style="background:#0D1F12;border:1px solid rgba(203,191,151,0.25);transition-delay:0.12s;">
+        <div class="flex items-center gap-3 px-5 py-4" style="background:#142A19;border-bottom:1px solid rgba(203,191,151,0.15);">
+          <div class="relative">
+            <div class="w-9 h-9 rounded-full flex items-center justify-center font-black text-bark text-sm" style="background:#CBBF97;">AI</div>
+            <span class="absolute -bottom-0.5 -right-0.5 w-3 h-3 rounded-full bg-green-400" style="border:2px solid #142A19;"></span>
+          </div>
+          <div>
+            <div class="font-semibold text-cream text-sm">3x Digi Money AI Agent</div>
+            <div class="text-mist text-xs flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-green-400 inline-block"></span>Online now — replies instantly</div>
+          </div>
+        </div>
+        <div id="chat-messages" class="p-5 space-y-4 overflow-y-auto" style="height:300px;">
+          <div class="flex gap-3">
+            <div class="w-7 h-7 rounded-full flex-shrink-0 flex items-center justify-center text-xs font-black mt-0.5" style="background:#CBBF97;color:#0D2010;">AI</div>
+            <div class="bubble-agent px-4 py-3 text-sm max-w-xs leading-snug">Hi there! 👋 I'm the AI booking agent for this brokerage. Are you looking to buy, sell, or just exploring the market?</div>
+          </div>
+        </div>
+        <div class="px-4 pb-4 pt-2" style="border-top:1px solid rgba(203,191,151,0.10);">
+          <div class="flex gap-2">
+            <input id="chat-input" type="text" placeholder="Type a message…" autocomplete="off" class="flex-1 px-4 py-2.5 rounded-xl text-sm text-cream bg-forest placeholder-mist outline-none" style="border:1px solid rgba(203,191,151,0.20);" />
+            <button id="chat-send" class="px-5 py-2.5 rounded-xl font-bold text-sm text-bark bg-gold hover:bg-cream transition-colors duration-200 flex-shrink-0">Send</button>
+          </div>
+          <p class="text-xs text-center mt-2" style="color:rgba(139,166,143,0.5);">Demo — responses are simulated</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section max-w-5xl mx-auto px-6">
+      <div class="divider mb-16"></div>
+      <div class="rounded-2xl p-8 md:p-14 text-center relative overflow-hidden fade-up" style="background:#0D1F12;border:1px solid rgba(203,191,151,0.25);">
+        <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-96 h-28 opacity-25 pointer-events-none" style="background:radial-gradient(ellipse,#3D6B45 0%,transparent 70%);filter:blur(70px);"></div>
+        <div class="relative">
+          <h2 class="font-black leading-tight tracking-tight text-cream mb-4" style="font-size:clamp(1.8rem,4vw,2.75rem);">Stop losing <span class="text-gradient">$8,000+ commissions.</span><br/>Start this week.</h2>
+          <p class="text-mist text-lg max-w-xl mx-auto mb-10 leading-relaxed">Book a free 10-minute discovery call. We'll show you exactly how many leads your brokerage is losing — and how to stop it.</p>
+          <form id="contact-form" class="max-w-md mx-auto space-y-4 text-left" novalidate>
+            <input type="text"  name="name"      placeholder="Your name"      required class="w-full px-4 py-3 rounded-xl text-cream text-sm outline-none bg-forest placeholder-mist" style="border:1px solid rgba(203,191,151,0.20);" />
+            <input type="email" name="email"     placeholder="Email address"  required class="w-full px-4 py-3 rounded-xl text-cream text-sm outline-none bg-forest placeholder-mist" style="border:1px solid rgba(203,191,151,0.20);" />
+            <input type="tel"   name="phone"     placeholder="Phone number"           class="w-full px-4 py-3 rounded-xl text-cream text-sm outline-none bg-forest placeholder-mist" style="border:1px solid rgba(203,191,151,0.20);" />
+            <input type="text"  name="brokerage" placeholder="Brokerage name"         class="w-full px-4 py-3 rounded-xl text-cream text-sm outline-none bg-forest placeholder-mist" style="border:1px solid rgba(203,191,151,0.20);" />
+            <button type="submit" class="w-full py-4 rounded-xl font-black text-bark bg-gold hover:bg-cream transition-colors duration-200" style="box-shadow:0 8px 32px rgba(203,191,151,0.20);">Book My Discovery Call</button>
+            <p id="form-msg" class="hidden text-center text-sm font-semibold" style="color:#4ade80;">✓ Received! We'll be in touch within 24 hours.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="mt-20 py-10" style="border-top:1px solid rgba(203,191,151,0.14);">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div>
+          <div class="font-black text-cream text-lg mb-1"><span class="text-gold">3x</span> Digi Money</div>
+          <div class="text-mist text-sm">Real Estate Lead Generation & AI Automation</div>
+        </div>
+        <nav class="flex flex-wrap justify-center gap-6 text-sm text-mist">
+          <a href="#problem"  class="hover:text-cream transition-colors">Problem</a>
+          <a href="#services" class="hover:text-cream transition-colors">Services</a>
+          <a href="#demo"     class="hover:text-cream transition-colors">AI Demo</a>
+          <a href="#contact"  class="hover:text-cream transition-colors">Contact</a>
+        </nav>
+        <p class="text-xs" style="color:rgba(139,166,143,0.5);">© 2026 3x Digi Money. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+  (function(){
+    'use strict';
+    const navPill=document.getElementById('nav-pill');
+    window.addEventListener('scroll',()=>navPill.classList.toggle('scrolled',window.scrollY>12),{passive:true});
+    const menuBtn=document.getElementById('menu-btn'),mobileMenu=document.getElementById('mobile-menu'),iconOpen=document.getElementById('icon-open'),iconClose=document.getElementById('icon-close');
+    function closeMenu(){mobileMenu.classList.add('hidden');iconOpen.classList.remove('hidden');iconClose.classList.add('hidden');menuBtn.setAttribute('aria-expanded','false');}
+    menuBtn.addEventListener('click',()=>{const h=mobileMenu.classList.toggle('hidden');iconOpen.classList.toggle('hidden',!h);iconClose.classList.toggle('hidden',h);menuBtn.setAttribute('aria-expanded',String(!h));});
+    document.querySelectorAll('.nav-link').forEach(l=>l.addEventListener('click',closeMenu));
+    const fadeObs=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');fadeObs.unobserve(e.target);}});},{threshold:0.1});
+    document.querySelectorAll('.fade-up').forEach(el=>fadeObs.observe(el));
+    const words=Array.from(document.querySelectorAll('[data-word]'));
+    const tagObs=new IntersectionObserver((entries)=>{entries.forEach(entry=>{if(entry.isIntersecting){words.forEach((w,i)=>setTimeout(()=>w.classList.add('lit'),i*55));tagObs.disconnect();}});},{threshold:0.25});
+    const tagEl=document.getElementById('tagline');if(tagEl)tagObs.observe(tagEl);
+    const chatMessages=document.getElementById('chat-messages'),chatInput=document.getElementById('chat-input'),chatSend=document.getElementById('chat-send');
+    const replies={buy:["Great! Are you pre-approved for a mortgage, or would you like us to connect you with our preferred lender?","What's your target budget and preferred neighbourhoods?","I have several properties matching that criteria. Want me to book a private showing this week?"],sell:["Smart timing. Would you like a free home valuation first, or do you already have a price in mind?","Our agents have closed 40+ listings in that area this year. I can get you a detailed CMA within 24 hours.","Let me book a 15-minute call with our listing specialist. What's your preferred day — weekday or weekend?"],book:["Let me check availability right now… I have openings Thursday at 6 PM and Saturday at 2 PM. Which works?","Done — Saturday at 2 PM is confirmed. You'll receive a text confirmation in the next few minutes."],default:["Great — are you pre-approved for a mortgage, or would you like help connecting with a lender?","I can book a showing at any of our available listings. What neighbourhood are you most interested in?","What days work best for you — weekdays or weekends?","I've got an opening Saturday at 2 PM. Can I confirm that for you and send a calendar invite?","Done — you're booked for Saturday at 2 PM. The agent will also follow up by text within the hour."]};
+    let defIndex=0;
+    function appendMessage(text,role){const wrap=document.createElement('div');if(role==='user'){wrap.className='flex justify-end';wrap.innerHTML=`<div class="bubble-user px-4 py-3 text-sm max-w-xs leading-snug">${text}</div>`;}else{wrap.className='flex gap-3';wrap.innerHTML=`<div class="w-7 h-7 rounded-full flex-shrink-0 flex items-center justify-center text-xs font-black mt-0.5" style="background:#CBBF97;color:#0D2010;">AI</div><div class="bubble-agent px-4 py-3 text-sm max-w-xs leading-snug">${text}</div>`;}chatMessages.appendChild(wrap);chatMessages.scrollTop=chatMessages.scrollHeight;return wrap;}
+    function pickReply(input){const lc=input.toLowerCase();if(/buy|purchas|looking for|find\s+a|search/.test(lc))return replies.buy[Math.floor(Math.random()*replies.buy.length)];if(/sell|selling|list|listing/.test(lc))return replies.sell[Math.floor(Math.random()*replies.sell.length)];if(/book|showing|visit|tour|see\s+it|schedule/.test(lc))return replies.book[Math.floor(Math.random()*replies.book.length)];return replies.default[(defIndex++)%replies.default.length];}
+    function sendMsg(){const text=chatInput.value.trim();if(!text)return;appendMessage(text,'user');chatInput.value='';const typing=appendMessage('<span class="inline-flex gap-1 items-center h-4"><span class="w-1.5 h-1.5 rounded-full bg-mist animate-bounce" style="animation-delay:0ms"></span><span class="w-1.5 h-1.5 rounded-full bg-mist animate-bounce" style="animation-delay:140ms"></span><span class="w-1.5 h-1.5 rounded-full bg-mist animate-bounce" style="animation-delay:280ms"></span></span>','agent');setTimeout(()=>{typing.remove();appendMessage(pickReply(text),'agent');},850+Math.random()*450);}
+    chatSend.addEventListener('click',sendMsg);
+    chatInput.addEventListener('keydown',e=>{if(e.key==='Enter')sendMsg();});
+    const form=document.getElementById('contact-form'),formMsg=document.getElementById('form-msg');
+    const WEBHOOK='YOUR_WEBHOOK_URL_HERE';
+    form.addEventListener('submit',async(e)=>{e.preventDefault();const btn=form.querySelector('button[type="submit"]');btn.textContent='Sending…';btn.disabled=true;if(typeof gtag==='function')gtag('event','generate_lead',{event_category:'contact_form'});const payload=Object.fromEntries(new FormData(form).entries());if(WEBHOOK!=='YOUR_WEBHOOK_URL_HERE'){try{await fetch(WEBHOOK,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});}catch(_){}}await new Promise(r=>setTimeout(r,700));form.reset();btn.textContent='Book My Discovery Call';btn.disabled=false;formMsg.classList.remove('hidden');setTimeout(()=>formMsg.classList.add('hidden'),6000);});
+  })();
+  </script>
+
+</body>
+</html>
